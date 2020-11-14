@@ -1,0 +1,62 @@
+form{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.box{
+    background-color: cyan;
+    display: flex;
+    border: 2px solid;
+    border-radius: 15px;
+    flex-direction: column-reverse;
+    height: 350px;
+    width: 500px;
+}
+
+.messageBox{
+    border: 2px solid;
+    margin: 6px;
+    background-color: rgb(125, 125, 255);
+    height: 303px;
+    border-radius: 6px;
+    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.message{
+    background-color: rgb(148, 147, 147);
+    width: 156px;
+    text-align: center;
+    padding: 6px;
+    margin: 5px;
+    word-break: break-word;
+    border-radius: 6px;
+}
+
+.left{
+    float: left;
+    margin-right: 50%;
+}
+
+.right{
+    float: right;
+    margin-left: 50%;
+}
+
+button{
+    padding: 7px;
+    padding-top: 7px;
+    border: transparent;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+input{
+    border: 1px;
+    margin-right: 3px;
+    border-radius: 6px;    
+    margin-bottom: 2px;
+    width: 620px;
+}
