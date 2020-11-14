@@ -38,4 +38,6 @@ socket.on('recieve' , data => {
 
 socket.on('left' , username =>{
     append(username + ' have left the chat' , 'left')
+    var objDiv = document.getElementById("messageBox");
+    objDiv.scrollTop = objDiv.scrollHeight;
 });
